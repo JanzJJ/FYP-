@@ -1,0 +1,9 @@
+
+{
+  "name": "StayCare - Report & Rescue",
+  "description": "A community platform for reporting and helping stray animals with a structured reporting flow.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
