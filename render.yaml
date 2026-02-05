@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: fyp-nethma-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: bash build.sh
+    startCommand: cd backend && gunicorn app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.13
+      - key: PYTHONUNBUFFERED
+        value: 1
